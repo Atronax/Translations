@@ -1,0 +1,38 @@
+Microsoft: KB5021233 causes blue screens with 0xc000021a errors
+By Sergiu Gatlan
+
+    December 19, 2022 07:19 AM 9 
+
+Windows 10
+
+Microsoft is investigating a known issue leading to Blue Screen of Death (BSOD) crashes with 0xc000021a errors after installing the Windows 10 KB5021233 cumulative update released during this month's Patch Tuesday.
+
+The company warned over the weekend that "after installing KB5021233, some Windows devices might start up to an error (0xc000021a) with a blue screen."
+
+This known issue is likely caused by a mismatch between the file versions of hidparse.sys in system32 and system32/drivers in the Windows folder, "which might cause signature validation to fail when cleanup occurs."
+
+The list of affected platforms includes only client Windows 10 versions, from Windows 10 20H2 to the latest release, Windows 10 22H2.
+
+Redmond added that it's already working on a fix to address this newly acknowledged issue but hasn't yet shared when it will be available.
+Workaround for affected Windows 10 systems
+
+However, the company did share a temporary solution to workaround the blue screen issue and revive the affected systems to start as expected.
+
+This requires users to copy the hidparse.sys file from the system32\drivers folder into system32 via the Windows Recovery Environment (WinRE) so that the signature validation no longer fails during cleanup.
+
+To mitigate this issue on impacted devices, you need to go through the following steps:
+
+    You will need to enter Windows Recovery Environment. If your device has not automatically started up into WinRE, please see Entry points into WinRE.
+    Select the Troubleshoot button.
+    Select the "Start recovery, troubleshooting, and diagnostic tools" button.
+    Select the "Advanced Options" button.
+    Select the "Command Prompt" button and wait for your device to restart, if needed.
+    Your device should restart to a Command Prompt window. You might need to sign into your device with your password before getting to the Command Prompt window.
+    Run the following command (Important: If Windows is not installed to C:\windows you will need to modify the command to your environment): xcopy C:\windows\system32\drivers\hidparse.sys C:\windows\system32\hidparse.sys
+    Once the previous command completes, type: exit
+    Select the "Continue" button.
+    Windows should now start up as expected.
+
+"It is not recommended to follow any other workaround than those recommended above. We do not recommend deleting the hidparse.sys from your Windows\System32 folder," Microsoft added.
+
+Redmond is also investigating a known issue linked to this month's Windows Server Patch Tuesday updates that triggers errors when creating new virtual machines on some Hyper-V hosts.

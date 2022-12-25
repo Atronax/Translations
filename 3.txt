@@ -1,0 +1,38 @@
+Google introduces end-to-end encryption for Gmail on the web
+By Sergiu Gatlan
+
+    December 17, 2022 09:15 AM 2 
+
+Gmail
+
+Google announced on Friday that it's adding end-to-end encryption (E2EE) to Gmail on the web, allowing enrolled Google Workspace users to send and receive encrypted emails within and outside their domain. 
+
+Client-side encryption (as Google calls E2EE) was already available for users of Google Drive, Google Docs, Sheets, Slides, Google Meet, and Google Calendar (beta).
+
+Once enabled, Gmail client-side encryption will ensure that any sensitive data delivered as part of the email's body and attachments (including inline images) can not be decrypted by Google servers — the email header (including subject, timestamps, and recipients lists) will not be encrypted.
+
+"You can use your own encryption keys to encrypt your organization's data, in addition to using the default encryption that Google Workspace provides," Google explained on its support website.
+
+"With Google Workspace Client-side encryption (CSE), content encryption is handled in the client's browser before any data is transmitted or stored in Drive's cloud-based storage.
+
+"That way, Google servers can't access your encryption keys and decrypt your data. After you set up CSE, you can choose which users can create client-side encrypted content and share it internally or externally."
+
+Gmail E2EE beta is currently available for Google Workspace Enterprise Plus, Education Plus, and Education Standard customers.
+
+They can apply for the beta until January 20, 2023, by submitting their Gmail CSE Beta Test Application which should include the email address, Project ID, and test group domain.
+Gmail E2EE beta
+Sending and receiving end-to-end encrypted emails in Gmail (Google)
+
+The company says the feature is not yet available to users with personal Google Accounts or Google Workspace Essentials, Business Starter, Business Standard, Business Plus, Enterprise Essentials, Education Fundamentals, Frontline, and Nonprofits, as well as legacy G Suite Basic and Business customers. 
+
+After Google emails back to confirm that the account is ready, admins can set up Gmail CSE for their users by going through the following procedure to set up their environment, prepare S/MIME certificates for each user in the test group, and configure the key service and identity provider.
+
+?The feature will be off by default and can be enabled at the domain, organizational unit, and Group levels by going to Admin console > Security > Access and data control > Client-side encryption.
+
+Once enabled, you can toggle on E2EE for any message by clicking the lock icon next to the Recipients field and clicking "Turn on" under the "Additional encryption" option.
+
+Users will then be able to compose their Gmail messages and add email attachments as they would normally do.
+
+"Google Workspace already uses the latest cryptographic standards to encrypt all data at rest and in transit between our facilities," Google added.
+
+"Client-side encryption helps strengthen the confidentiality of your data while helping to address a broad range of data sovereignty and compliance needs."

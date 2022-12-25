@@ -1,0 +1,50 @@
+Epic Games to pay $520 million for privacy violations, dark patterns
+By Sergiu Gatlan
+
+    December 19, 2022 10:27 AM 2 
+
+Epic Games
+
+The Federal Trade Commission (FTC) says Epic Games, the maker of Fortnite, will pay $520 million to settle allegations of violating children's privacy laws and using dark patterns to trick millions of gamers into making unintentional in-game purchases.
+
+While Fortnite is free to download and play, Epic charges players for in-game items like dance moves and costumes. Fortnite has a huge player base of more than 400 million users worldwide, according to the FTC.
+
+The settlement includes a record-breaking $275 million monetary penalty for violating the COPPA Rule, the largest penalty ever for violating an FTC rule, as well as a $245 million refund for consumers affected by Epic's billing practices and dark patterns, FTC's largest administrative order ever and the largest gaming case refund amount in history.
+
+The FTC alleged in its complaint that Fortnite's creator violated COPPA (Children's Online Privacy Protection Act) by harvesting personal information from Fortnite players under 13 years old without notifying or obtaining their verifiable consent from their parents.
+
+Epic's decision to enable real-time voice and text chat communications by default for children and teens also allegedly put them at risk of bullying, harassment, and other forms of harm.
+
+"As early as 2017, Epic employees urged the company to change the default settings to require users to opt in for voice chat, citing concern about the impact on children in particular," the FTC said.
+
+"Despite this and reports that children had been harassed, including sexually, while playing the game, the company resisted turning off the default settings. And while it eventually added a button allowing users to turn voice chat off, Epic made it difficult for users to find, according to the complaint."
+
+Besides the $275 million record civil penalty imposed through a proposed federal court order, Epic will also be required to make text and voice communications in Fortnite an opt-in feature for children and teens that can only be enabled with the parents' affirmative consent through a privacy setting.
+
+Lina Khan Epic Games tweet
+Millions of "wrongfully charged" gamers
+
+In addition to the COPPA violations, the FTC also alleged in a separate administrative complaint that Epic employed dark patterns to dupe Fortnite players, including children and teenagers, into making unwanted in-game purchases.
+
+Some of the dark patterns used to achieve this included various confusing purchase prompts and misleading offers that led the gamers to make purchases they had no intention of making.
+
+"For example, players could be charged while attempting to wake the game from sleep mode, while the game was in a loading screen, or by pressing an adjacent button while attempting simply to preview an item," the FTC explained.
+
+"These tactics led to hundreds of millions of dollars in unauthorized charges for consumers."
+
+The company also allegedly charged account holders (the children and teens' parents) hundreds of dollars without authorization and locked players' accounts after they disputed the unauthorized charges.
+
+On top of having to pay $245 million in refunds to affected customers and being ordered to stop using dark patterns or charging customers without their consent, Epic is also barred from blocking players' access to their accounts after they dispute unauthorized charges.
+
+"Epic ignored more than one million user complaints and repeated employee concerns that 'huge' numbers of users were being wrongfully charged," the FTC added.
+
+"In fact, Epic's changes only made the problem worse, the FTC alleged. Using internal testing, Epic purposefully obscured cancel and refund features to make them more difficult to find."
+Fortnite creator makes privacy and payment changes
+
+Epic Games also issued a statement on Monday, saying that it has improved Fortnite's default privacy settings to comply with FTC's rules and changed payment flows to prevent unwanted charges.
+
+"In September, we implemented high privacy default settings for players under the age of 18. Chat defaults to “Nobody," profile details default to hidden, parties default to 'Invite Only,' and personalized recommendations are defaulted Off. Players under 16 also have the mature language filter defaulted On for text chat," the company said.
+
+"We’ve updated our payment flows with a hold-to-purchase mechanic that re-confirms a player’s intent to buy, as an additional safeguard to prevent unintended purchases alongside instant purchase cancellations and self-service refunds. "
+
+Update: Added Epic Games statement.

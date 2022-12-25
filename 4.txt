@@ -1,0 +1,77 @@
+
+Microsoft Patch Tuesday, December 2022 Edition
+December 14, 2022
+5 Comments
+
+Microsoft has released its final monthly batch of security updates for 2022, fixing more than four dozen security holes in its various Windows operating systems and related software. The most pressing patches include a zero-day in a Windows feature that tries to flag malicious files from the Web, a critical bug in PowerShell, and a dangerous flaw in Windows 11 systems that was detailed publicly prior to this week’s Patch Tuesday.
+
+The security updates include patches for Azure, Microsoft Edge, Office, SharePoint Server, SysInternals, and the .NET framework. Six of the update bundles earned Microsoft’s most dire “critical” rating, meaning they fix vulnerabilities that malware or malcontents can use to remotely commandeer an unpatched Windows system — with little to no interaction on the part of the user.
+
+The bug already seeing exploitation is CVE-2022-44698, which allows attackers to bypass the Windows SmartScreen security feature. The vulnerability allows attackers to craft documents that won’t get tagged with Microsoft’s “Mark of the Web,” despite being downloaded from untrusted sites.
+
+“This means no Protected View for Microsoft Office documents, making it easier to get users to do sketchy things like execute malicious macros, said Greg Wiseman, product manager at security firm Rapid7. This is the second Mark of the Web flaw Microsoft has patched in as many months; both were first publicly detailed over the past two months on Twitter by security researcher Will Dormann.
+
+Publicly disclosed (but not actively exploited for now) is CVE-2022-44710, which is an elevation of privilege flaw in the DirectX graphics component of Windows 11.
+
+Another notable critical bug is CVE-2022-41076, a remote code execution flaw in PowerShell — a key component of Windows that makes it easier to automate system tasks and configurations.
+
+Kevin Breen at Immersive Labs said while Microsoft doesn’t share much detail about CVE-2022-41076 apart from the designation ‘Exploitation More Likely,’ they also note that successful exploitation requires an attacker to take additional actions to prepare the target environment.
+
+“What actions are required is not clear; however, we do know that exploitation requires an authenticated user level of access,” Breen said. “This combination suggests that the exploit requires a social engineering element, and would likely be seen in initial infections using attacks like MalDocs or LNK files.”
+
+Speaking of malicious documents, Trend Micro’s Zero Day Initiative highlights CVE-2022-44713, a spoofing vulnerability in Outlook for Mac.
+
+“We don’t often highlight spoofing bugs, but anytime you’re dealing with a spoofing bug in an e-mail client, you should take notice,” ZDI’s Dustin Childs wrote. “This vulnerability could allow an attacker to appear as a trusted user when they should not be. Now combine this with the SmartScreen Mark of the Web bypass and it’s not hard to come up with a scenario where you receive an e-mail that appears to be from your boss with an attachment entitled “Executive_Compensation.xlsx”. There aren’t many who wouldn’t open that file in that scenario.”
+
+Microsoft also released guidance on reports that certain software drivers certified by Microsoft’s Windows Hardware Developer Program were being used maliciously in post-exploitation activity.
+
+Three different companies reported evidence that malicious hackers were using these signed malicious driver files to lay the groundwork for ransomware deployment inside victim organizations. One of those companies, Sophos, published a blog post Tuesday detailing how the activity was tied to the Russian ransomware group Cuba, which has extorted an estimated $60 million from victims since 2019.
+
+Of course, not all scary and pressing security threats are Microsoft-based. Also on Tuesday, Apple released a bevy of security updates to iOS, iPadOS, macOS, tvOS and Safari, including  a patch for a newly discovered zero-day vulnerability that could lead to remote code execution.
+
+Anyone responsible for maintaining Fortinet or Citrix remote access products probably needs to update, as both are dealing with active attacks on just-patched flaws.
+
+For a closer look at the patches released by Microsoft today (indexed by severity and other metrics) check out the always-useful Patch Tuesday roundup from the SANS Internet Storm Center. And it’s not a bad idea to hold off updating for a few days until Microsoft works out any kinks in the updates: AskWoody.com usually has the lowdown on any patches that may be causing problems for Windows users.
+
+As always, please consider backing up your system or at least your important documents and data before applying system updates. And if you run into any problems with these updates, please drop a note about it here in the comments.
+
+5 thoughts on “Microsoft Patch Tuesday, December 2022 Edition”
+
+    Steve Mencik
+    December 14, 2022
+
+    As with the last several updates, it insists on updating my sound driver to a new version that does not work, forcing me to go and re-load the old one which does. What a pain in the neck.
+    Reply >	
+    Anony-mouse
+    December 15, 2022
+
+    A month of Linux updates: 28 MB
+    A month of Windows updates: 520 MB
+
+    Bugs / exploits per year Windows: ~900
+    Bugs / exploits per year Linux: < one month of M$
+    Reply >	
+        name
+        December 15, 2022
+
+        This is what I tell all my customers. Lots more Linux end-users out there than most people think, these days. This was directly related to MS laying off their patch QA team back in 2014. That’s when MS patches started deleting user data, botching system upgrades, bluescreening PC’s, and generally behaving poorly. They thought they could pass the cost of terrible software on to their customers, and for the most part they were right.
+
+        Firing those 12-ish people caused a plunge in software quality that MS has never recovered from – and their customers just absorb all those costs. It’s like magic. MS doesn’t even make software anymore — they make money.
+
+        Installing Linux is how I recommend recovering from viruses, botched updates, completely-full SSD’s, and other Windows-only ailments. Basic customers might stick with Microsoft, but increasingly the smart ones are leaving it behind.
+        Reply >	
+        KFritz
+        December 16, 2022
+
+        I’m a long time user of Ubuntu, exclusively since Windows 7 stopped regular support. Monthly updates are in the hundreds of MBs–however, they happen MUCH quicker than Windows updates.
+
+        Good luck finding a Linux compatible printer. I keep a partitioned Windows 10 OS in my desktop for scanning and printing.
+
+        In my little corner of the San Joaquin Valley CA, the only available cable ISP is Comcast/Internet Essentials, which doesn’t play with Linux (or at least Ubuntu), so I’m stuck with ATT DSL.
+
+        Paradise it ain’t, but I still use Ubuntu because it’s so much more secure.
+        Reply >	
+    pay homework
+    December 19, 2022
+
+    Installing Linux is the best way to recover from Windows-only troubles such as botched updates, completely-full SSDs, and viruses. However, the smart ones increasingly leave Microsoft behind. On my desktop, I impound a Windows 10 partition for scanning and printing that is always updated to the newest sound driver that doesn’t work. It is a pain in the neck to re-load the old one that works.
